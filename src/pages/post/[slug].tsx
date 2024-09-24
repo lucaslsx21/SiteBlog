@@ -6,7 +6,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { client } from '@/lib/apollo'
 import { format } from "date-fns"
-import { ptBR } from "date-fns/locale/pt-BR"
+import { ptBR } from "date-fns/locale"
 import { RichText } from "@graphcms/rich-text-react-renderer"
 import { ElementNode } from "@graphcms/rich-text-types"
 

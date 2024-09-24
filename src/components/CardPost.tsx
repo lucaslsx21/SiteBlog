@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { format } from "date-fns"
-import { ptBR } from "date-fns/locale/pt-BR"
+import { ptBR } from "date-fns/locale"
 
 interface CardPostProps {
   title: string;

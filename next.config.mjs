@@ -1,8 +1,19 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  reactStrictMode: true,
   images: {
-    domains: ['us-west-2.graphassets.com'],
-  },
+    remotePatterns: [
+      {
+        hostname: 'images.unsplash.com',
+        protocol: 'https'
+      },
+      {
+        hostname: 'media.graphassets.com',
+        protocol: 'https'
+      },
+
+    ]
+  }
 }
 
-export default nextConfig;
+export default nextConfig
